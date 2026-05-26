@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Super-Herói | Recrutamento</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo do Codificador Mascarado" width="50" height="50">
+            </div>
+        <div class="container-cabecalho">
+            <div class="cabecalho-inner">
+
+                <div class="hero-info">
+                    <h1>Codificador Mascarado</h1>
+                    <p>Especialista em resolver bugs e derrubar servidores vilões.</p>
+                </div>
+
+                <nav class="nav-interacao">
+                    <ul>
+                        <li><a href="Sobre.html" class="botao-borda">Sobre mim</a></li>
+                        <li><a href="Habilidades.html" class="botao-borda">Habilidades</a></li>
+                        <li><a href="Contato.html" class="botao-borda">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- CARD 1 -->
+        <section id="sobre" class="card">
+            <h2>Origem Secreta</h2>
+
+            <article>
+                <p>
+                    Nascido em uma sala de servidores gelada, o
+                    <strong>Codificador Mascarado</strong>
+                    desenvolveu a habilidade de ler binário antes mesmo de falar.
+                </p>
+
+                <img src="img/origem.png"
+                    alt="Foto do Herói com capuz e teclado"
+                    width="center" height="200px">
+            </article>
+        </section>
+
+        <!-- CARD 2 -->
+        <section id="habilidades" class="card">
+            <h2>Super Poderes (Skills)</h2>
+            <img src="img/poderes.png"
+                alt="Ilustração de super-herói com poderes tecnológicos"
+                width="center" height="200px">
+
+            <ul>
+            <p>
+                <li><strong>Debugging Relâmpago:</strong> Encontra e corrige bugs em tempo recorde.</li>
+                <li><strong>Firewall Inquebrável:</strong> Protege sistemas contra ataques cibernéticos.</li>
+                <li><strong>Visão de Código:</strong> Compreende qualquer linguagem de programação instantaneamente.</li>
+            <p>
+            </ul>
+        </section>
+
+        <!-- CARD 3 -->
+        <section id="missao" class="card">
+            <h2>Missão Atual</h2>
+            <img src="img/missao.png"
+                alt="Ilustração de super-herói em missão"
+                width="center" height="200px">
+            <ol>
+            <p>
+                <li>Destruir o malicioso <em>Bugzilla</em> que ameaça a estabilidade dos sistemas.</li>
+                <li>Proteger os dados dos cidadãos contra o vilão <em>Ransomware Rex</em>.</li>
+                <li>Colaborar com outros heróis para criar um mundo digital mais seguro.</li>
+            <p>
+            </ol>
+        </section>
+
+        <!-- CARD 4 -->
+        <section id="contato" class="card">
+            <h2>Contrate o Herói</h2>
+            <img src="img/panfleto.png"
+                alt="Ilustração de super-herói com telefone"
+                width="center" height="200px">
+            <form action="#">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome"
+                    placeholder="Ex: Comissário Gordon"class="botao-borda" required>
+
+                <label for="missao-txt">Descrição da Missão:</label>
+                <textarea id="missao-txt" name="missao" rows="4" cols="30"
+                    placeholder="Descreva a missão..."class="botao-borda"></textarea>
+
+                <button type="submit" class="botao-borda">
+                    Enviar Sinal de Ajuda ⚡
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido na base secreta de TI.</p>
+    </footer>
+
+</body>
+
+</html>
