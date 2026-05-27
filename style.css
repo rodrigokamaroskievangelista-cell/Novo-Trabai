@@ -66,13 +66,11 @@ body {
 }
 
 /* Logo */
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--cor-texto);
-    text-decoration: none;
-}
+.logo-capivara {
+    display: flex;
+    align-items: center;
 
+    }
 /* Cabeçalho interno */
 .cabecalho-inner {
     display: flex;
@@ -141,7 +139,7 @@ body {
 
 .botao-borda:hover {
     background-color: transparent;
-    color: var(--cor-de-fundo-cabecalho);
+    color: #00d4ff;
     box-shadow: var(--sombra-card);
     transform: translateY(-2px);
 }
